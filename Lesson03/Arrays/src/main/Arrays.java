@@ -10,7 +10,7 @@ public class Arrays {
 
         Scanner in = new Scanner(System.in);
 
-        int[] array = new int[10];
+        int[] array = new int[5];
         System.out.println("initial mass");
         for (int x : array) {
             System.out.print(x + " ");
