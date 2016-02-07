@@ -19,6 +19,7 @@ public class Calc {
 
         System.out.println("Select operation");
         operation = in.next().charAt(0);
+
         switch (operation){
             case '+':
                 answer = first + second;
@@ -46,7 +47,7 @@ public class Calc {
                 }
                 break;
             default:
-                System.out.println("*******");
+                System.out.println("unclear");
                 break;
         }
 
