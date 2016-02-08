@@ -13,6 +13,7 @@ public class Arrays {
         int[] array = new int[5];
         System.out.println("initial mass");
         for (int x : array) {
+	    array[x] = 0;
             System.out.print(x + " ");
         }
 
